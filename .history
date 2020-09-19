@@ -277,3 +277,214 @@ cd repos_2
 cd repo_2
 cd Command_line_MasterDS
 cp ~/.history .
+git add -u
+git commit -m "Quick exercise --> $(date)"
+git push
+clear
+cd
+clear
+ll
+alias
+alias gl='git log'
+alias gc='git commit -m'
+cd repo_2/Command_line_MasterDS
+gl
+cd
+exit
+cd repo_2/Command_line_MasterDS
+gl
+cd
+zsh
+cat
+clear
+gedit .zshrc
+cp .zshrc .zshrc.backup
+ls -a
+gedit .zshrc
+gm
+exit
+cd
+exit
+gm
+gl
+gs
+which python
+whereis python
+echo This is all very very nice
+echo This is text
+echo This is all very nice
+alias gc='git commit -m'
+gs
+cd
+git clone https://github.com/malonsol/Command_line_MasterDS.git
+ls
+cd Command_line_MasterDS
+rm -rf
+rm -rf *
+cd
+ls
+cd
+cd Data
+ll
+cd opentraveldata
+ll
+head optd_aircraft.csv
+cat optd_aircraft.csv
+head10 optd_aircraft.csv
+head 10 optd_aircraft.csv
+head 2 optd_aircraft.csv
+head -2 optd_aircraft.csv
+head -5 optd_aircraft.csv
+head -n -3 optd_aircraft.csv
+head -n 3 optd_aircraft.csv
+wc optd_aircraft.csv
+wc -w optd_aircraft.csv
+wc -l optd_aircraft.csv
+wc -b optd_aircraft.csv
+wc -c optd_aircraft.csv
+cat optd
+cat optd_
+cat optd_aircraft.csv
+cat optd_aircraft.csv | wc
+wc optd_aircraft.csv
+cat optd_aircraft.csv | wc | wc
+head -3 optd_aircraft.csv
+head -3 optd_aircraft.csv | wc
+head -8 optd_aircraft.csv
+head -8 optd_aircraft.csv | tail -1
+cat -n optd_aircraft.csv | head -8
+cat -n optd_aircraft.csv | head -8 | tail -1
+echo Test
+echo Test >test_file
+cat test_file
+echo Test2 >test_file
+cat test_file
+echo Test3 >>test_file
+cat test_file
+<test_file
+<test_file wc
+cat -n optd_aircraft.csv | head -8 | tail -1
+cat -n optd_aircraft.csv | head -8 | tail -1 >test_file
+<test_file
+cd
+cd Data
+cd shell
+ls
+head -8 Finn.txt
+head -8 Finn.txt | wc
+head -5 Finn.txt | wc
+head -5 Finn.txt
+head -5 Finn.txt | wc
+head -5 Finn.txt | wc -w
+tail -20 ~/.hisstory >last_20_commands
+tail -20 ~/.history >last_20_commands
+$(date)
+cd
+$(date)
+echo [200~$(date)~
+echo $(date)
+whoami
+echo "#This file is created by $USER on: $(date)"
+echo "#This file is created by $USER on: $(date)">ejercicio
+cd ejer
+find
+find .
+find ./repo_2
+find ./repo_2 | wc
+find ./repo_2/Command_line_MasterDS | wc
+find . -name "text_file"
+find . -name "tExt_file"
+find . -name "text_file"
+find . /maxdepth 1 -type d -iname "tExt_file"
+find . -maxdepth 1 -type d -iname "tExt_file"
+find . -mindepth 1 -type d -iname "tExt_file"
+find -iname "text_file*"
+find -iname "text_file*" -perm 777
+find ! -iname "text_file*" -perm 777
+find ! -iname -mnim 3
+find -mnim 3
+find -mmin 3
+find . -type f -iname "*.csv"
+cd
+cd Data
+find . -type f -iname "*.csv"
+find . -type f -iname "*.csv" | 6
+find . -type f -iname "*.csv" | wc
+find . -type f -iname "*.csv" -exec echo "FOUND ONE" \;
+find . -type f -iname "*.csv" -exec echo "FOUND ONE" \
+find . -type f -iname "*.csv" -exec echo "FOUND ONE" ;
+find . -type f -iname "*.csv" -exec echo "FOUND ONE" \;
+find . -type f -iname "*.csv" -exec ls -l {} \;
+ls -l airline_tickets/coupon150720.csv
+find . -type f -iname "*.csv" -exec ls -l \;
+find . -type f -iname "*.csv" -exec ls -l {} \;
+find . -type f -iname "*.csv" -exec ls -l {} \; -exec head -2 {} \;
+find . -type f -iname "*.csv" -exec ls -l {} \; -exec head -2 {} \; | wc
+find . -type f -iname "*.csv" -exec ls -l {} \; -exec head -2 {} \; | less -S
+find . -type f -iname "*.csv" -exec ls -l {} \; | wc \;
+find . -type f -iname "*.csv" -exec zsh -c "ls -l {} \; | wc" \;
+cd
+find . -mmin 60
+find .
+jobs
+kill %1
+kill %2
+find . -mmin 60 -maxdepth 1
+find . -maxdepth 1 -mmin 60
+find . -maxdepth 2 -mmin 60
+find . -maxdepth 3 -mmin 60
+find . -type f -maxdepth 3 -perm 777 -mmin 60
+echo Ejercicio 1
+find . -type f -mmin -60
+find . -type f -maxdepth 2 -mmin -60
+find . -type f -mindepth 2 -mmin -60
+find . -mindepth 2 -type f -mmin -60
+find . -mindepth 2 -type f -mmin -60 -empty !
+find . -mindepth 2 -type f -mmin -60 -empty ! -perm 777
+find . -mindepth 2 -type f -mmin -60 -empty ! -perm 777 -ok chmod 777 {} \;
+cd
+cd Data
+find -type f
+ls /l
+ls -l
+find -type f -exec {} \;
+find -type f -exec {} \; | wc
+find ~/Data -type f -exec {} \; | wc
+find ~/Data -type f -exec {} \; | wc | less -S
+find ~/Data -type f -exec {} \; | wc
+find ~/Data -type d -exec {} \;
+find ~/Data -type d -exec "ls -l"
+find ~/Data -type d -exec cmd "ls -l"
+find ~/Data -type d -exec cmd "ls -lS"
+find ~/Data -type d -exec ls -lS
+find ~/Data -type d -exec ls -lS {}\;
+find ~/Data -type d -exec cmd "ls -lS"
+find ~/Data -type d -exec ls -lS {} \;
+find ~/Data -type d
+find ~/Data -type d -exec ls -lS {} \;
+find ~/Data -type d -exec ls -lS {} \; head -3
+find ~/Data -type d -exec ls -lS {} \; -head -3
+find ~/Data -type d -exec ls -lS {} \; | head 3
+find ~/Data -type d -exec ls -lS {} \; | head -3
+find ~/Data -type d -exec ls -lS {} \;
+find ~/Data -type d
+find . -type d
+find . -type d -exec "ls -l {}" \;
+find . -type d -exec echo {} \;
+find . -mindepth 2 -type d -exec ls -l {} \;
+find . -mindepth 1 -type d -exec ls -l {} \;
+find . -mindepth 1 -type d -exec ls -S {} \;
+find . -mindepth 1 -type d -exec ls -lS {} \;
+find . -mindepth 1 -type d -exec echo {}\; ls -lS {} \;
+find . -mindepth 1 -type d -exec echo {}\; -exec ls -lS {} \;
+find . -mindepth 1 -type d -exec echo {} \; -exec ls -lS {} \;
+find . -mindepth 1 -type d -exec echo {} \; -exec zsh -c "ls -lS {}" \;
+find . -mindepth 1 -type d -exec echo {} \; -exec zsh -c "ls -lS {}" | head 3 \;
+find . -mindepth 1 -type d -exec echo {} \; -exec zsh -c "ls -lS {} | head 4" \;
+find . -mindepth 1 -type d -exec echo {} \; -exec zsh -c "ls -lSh {} | head 4" \;
+find . -mindepth 1 -type d -exec echo {} \; -exec zsh -c "ls -lSh {} | head -4" \;
+cd
+cd repo_2
+cd Command_line_MasterDS
+tail -20 ~/.history >last_20_commands
+cp ~/.history .
