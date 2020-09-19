@@ -231,3 +231,49 @@ cd Command_line_MasterDS
 cp ~/ .history
 git status
 cp ~/.history ./
+ls
+ls /a
+ls -a
+git add .history
+git commit -m "first 5h of master"
+cp ~/.history History
+gedit History
+ls
+git add History
+git commit -m "second commit now with History"
+git reset --hard
+ls -a
+git push
+$date
+$(date)
+cd
+mkdir first_dir
+cd first_dir
+touch text_file.txt
+chmod g+x,o+w text_file.txt
+ll
+mkdir sub1
+mkdir sub2
+mkdir text_file
+cp ./text_file.txt sub1
+cp ./text_file.txt sub2 text_file.txt.2
+cp ./text_file.txt sub2/text_file.txt.2
+mv ./text_file.txt sub2/text_file.txt.2
+cp ./sub1 ./sub3
+ll
+cp ./sub1 ./sub2
+ls sub2
+ls sub3
+cp sub1 sub3
+cp -r sub1 sub3
+ls sub3
+mv sub2/text_file.txt.2 sub2/text_file.txt.backup
+ls sub2
+mv sub2/text_file.txt.backup ./.text_file.txt.backup
+ls
+ls -a
+cd
+cd repos_2
+cd repo_2
+cd Command_line_MasterDS
+cp ~/.history .
